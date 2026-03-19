@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "0c807a94-0a46-4446-8a11-f4d0b57d4fa1",
+      "name": "selva",
+      "email": "selva@gmail.com",
+      "passwordHash": "$2a$10$69mf2Yibv5LEVOPjAgC67OkCsEylfRlbVHYbl.G8mzUj9PzHbeiUi",
+      "createdAt": "2026-03-06T05:22:31.705Z"
+    },
+    {
+      "id": "27821f6c-a146-450e-a406-5cbca9cbdbb7",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "passwordHash": "$2a$10$vnpYvqFNMkhxoMZqyZgb5.QsXOoIuvy3ZhrPsoV1jyyBNYT1wNxlu",
+      "createdAt": "2026-03-18T03:34:35.741Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "title": "Wireless Noise Cancelling Headphones",
+      "brand": "EchoBeat",
+      "category": "Electronics",
+      "description": "Over-ear Bluetooth headphones with active noise cancellation and 30-hour battery life.",
+      "price": 89.99,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "p2",
+      "title": "Smart Fitness Watch",
+      "brand": "PulsePro",
+      "category": "Wearables",
+      "description": "Track heart rate, sleep, workouts, and notifications with a water-resistant design.",
+      "price": 119,
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "p3",
+      "title": "Portable Blender",
+      "brand": "BlendGo",
+      "category": "Home & Kitchen",
+      "description": "USB-rechargeable mini blender for shakes and smoothies on the go.",
+      "price": 34.5,
+      "rating": 4.1,
+      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "p4",
+      "title": "Ergonomic Office Chair",
+      "brand": "WorkEase",
+      "category": "Furniture",
+      "description": "Breathable mesh chair with adjustable lumbar support and 3D armrests.",
+      "price": 229.99,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "p5",
+      "title": "Mechanical Keyboard",
+      "brand": "TypeForge",
+      "category": "Computers",
+      "description": "RGB backlit keyboard with tactile switches and hot-swappable keys.",
+      "price": 74.95,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "p6",
+      "title": "Stainless Steel Water Bottle",
+      "brand": "HydraFlow",
+      "category": "Sports",
+      "description": "Double-wall insulated bottle keeps drinks cold for 24 hours.",
+      "price": 22,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "carts": [
+    {
+      "userId": "0c807a94-0a46-4446-8a11-f4d0b57d4fa1",
+      "items": [
+        {
+          "productId": "p2",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "userId": "27821f6c-a146-450e-a406-5cbca9cbdbb7",
+      "items": [
+        {
+          "productId": "p2",
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "orders": []
+}
